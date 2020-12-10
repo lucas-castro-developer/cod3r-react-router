@@ -1,6 +1,14 @@
 import "./App.css";
 import React from "react";
 
-const App = (props) => <div className="App">Component App</div>;
+import Menu from '../components/layouts/Menu'
+import Content from '../components/layouts/Content'
+
+const App = props => (
+  <div className="App">
+    <Menu />
+    <Content />
+  </div>
+);
 
 export default App;
